@@ -11,3 +11,9 @@ body {
 h1 {
     text-align: center;
 }
+
+#container {
+    width: 502px;
+    margin: 30px auto;
+    padding: 0;
+}
