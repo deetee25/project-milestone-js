@@ -11,5 +11,7 @@ fetch("https://restcountries.eu/rest/v2/all")
 function initialize(countriesData) {
   countries = countriesData;
 let options = "";
-}
+
 countries.forEach(country => options+=`<option value="${country.alpha3Code}">${country.name}</option>`);
+countriesList.innerHTML = options;
+}
