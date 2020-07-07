@@ -14,10 +14,11 @@ let options = "";
 
 countries.forEach(country => options+=`<option value="${country.alpha3Code}">${country.name}</option>`);
 countriesList.innerHTML = options;
+  displayCountryInfo("AFG");
 }
 
 function displayCountryInfo(countryByAlpha3Code) {
   const countryData = countries.find(country => country.alpha3Code === countryByAlpha3Code);
+  document.getElementById("capital-city").innerHTML = countryData.capital;
 }
 
-document.getElementById("capital-city").innerHTML = countryData.capital;
