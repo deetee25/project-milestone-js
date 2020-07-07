@@ -15,3 +15,7 @@ let options = "";
 countries.forEach(country => options+=`<option value="${country.alpha3Code}">${country.name}</option>`);
 countriesList.innerHTML = options;
 }
+
+function displayCountryInfo(countryByAlpha3Code) {
+  const countryData = countries.find(country => country.alpha3Code === countryByAlpha3Code);
+}
