@@ -20,5 +20,7 @@ countriesList.innerHTML = options;
 function displayCountryInfo(countryByAlpha3Code) {
   const countryData = countries.find(country => country.alpha3Code === countryByAlpha3Code);
   document.getElementById("capital-city").innerHTML = countryData.capital;
+  document.getElementById("dialing-code").innerHTML = `+${countryData.callingCodes[0]}`;
+
 }
 
