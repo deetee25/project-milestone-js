@@ -22,6 +22,6 @@ function displayCountryInfo(countryByAlpha3Code) {
   document.getElementById("capital-city").innerHTML = countryData.capital;
   document.getElementById("dialing-code").innerHTML = `+${countryData.callingCodes[0]}`;
   document.getElementById("population").innerHTML = countryData.population.toLocaleString("en-US");
-
+  document.getElementById("currencies").innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");
 }
 
