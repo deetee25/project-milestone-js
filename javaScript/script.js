@@ -25,5 +25,6 @@ function displayCountryInfo(countryByAlpha3Code) {
   document.getElementById("currencies").innerHTML = countryData.currencies.filter(c => c.name).map(c => `${c.name} (${c.code})`).join(", ");
   document.getElementById("region").innerHTML = countryData.region;
   document.getElementById("subregion").innerHTML = countryData.subregion;
+  document.querySelector("#flag-container img").src = countryData.flag;
 }
 
