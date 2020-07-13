@@ -22,7 +22,8 @@ let options = "";
 
 countries.forEach(country => options+=`<option value="${country.alpha3Code}">${country.name}</option>`);
 countriesList.innerHTML = options;
-  displayCountryInfo("AFG");
+  countriesList.selectedIndex = Math.floor(Math.random()*countriesList.length);
+  displayCountryInfo(countriesList[countriesList.selectedIndex].value);
 }
 
 function displayCountryInfo(countryByAlpha3Code) {
