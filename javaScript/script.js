@@ -26,5 +26,6 @@ function displayCountryInfo(countryByAlpha3Code) {
   document.getElementById("region").innerHTML = countryData.region;
   document.getElementById("subregion").innerHTML = countryData.subregion;
   document.querySelector("#flag-container img").src = countryData.flag;
+  document.querySelector("#flag-container img").alt = `Flag of ${countryData.name}`;  
 }
 
