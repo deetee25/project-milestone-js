@@ -14,9 +14,7 @@ The Countires Web App works on desktop, tablet and mobile devices. The app can b
 
 ![Countries Web App Screenshot](assets/countries-web-app.png "Countries Web App Interface")
 
-## Fetching countries data using an API
-
-## Things used to build this project :
+## This was built using :
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
