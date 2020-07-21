@@ -62,4 +62,4 @@ Images - The images are of the flag of the country selected. This provides an in
 
 The wireframes was created using [Balsamiq](https://balsamiq.com/wireframes/desktop/), this was the initial part of the project in the planning stage.
 
-These are available in both [mobile](wireframe/Mobilecopy.png) and [desktop](wireframe/NewMockup1.png) versions.
+These are available in both [mobile](wireframe/mobile.png) and [desktop](wireframe/desktop.png) versions.
