@@ -28,19 +28,15 @@ The Countires Web App works on desktop, tablet and mobile devices. The app can b
 
 This is a web app build with **HTML** - **CSS** - **JS**, it uses a **REST API** and the endpoints are provided by [Rest Countries](https://restcountries.eu/) to fetch the data of different countries.
 
-## Homepage
-
-<img src="assets/homepage.png" width="450px">
-
 #### All the below parameters are fetched from the REST API we've used:
 
-    - flag
-    - capital city
-    - dialing code
-    - population
-    - currencies
-    - region
-    - subregion
+    - Flag
+    - Capital city
+    - Dialing code
+    - Population
+    - Currencies
+    - Region
+    - Subregion
 
 #### The country list is also getting the country data from the API we have used.
 
