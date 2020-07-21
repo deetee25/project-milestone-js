@@ -12,7 +12,7 @@ The Countires Web App works on desktop, tablet and mobile devices. The app can b
 
 ### Countires Web App interface
 
-![Countries Web App Screenshot](/assets/countries-web-app.png "Countries Web App Interface")
+![Countries Web App Screenshot](assets/countries-web-app.png "Countries Web App Interface")
 
 ## Fetching countries data using an API
 
