@@ -1,8 +1,6 @@
-# project-milestone-js
-
 # Countries Data using an API
 
-# project-milestone-js
+# Table of contents
 
 ## Fetching countries data using an API
 
