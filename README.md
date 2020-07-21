@@ -2,6 +2,18 @@
 
 # Table of contents
 
+## Mission
+
+The Countries API Web App allows the user to access useful information about any country in the world at the click of a button.
+
+### Countries Web App. 
+
+The Countires Web App works on desktop, tablet and mobile devices. The app can be used for a variety of purposes including educational to support project facts or for potential travellers researching destinations. The app comprises of a simple dropdown box where the user selects the desired country. This then changes the view and information given so that it is relevant to the country selected, including flag, capital city, poulation, currency and dialling code.
+
+### Countires Web App interface
+
+![Countries Web App Screenshot](/assets/countries-web-app.png "Countries Web App Interface")
+
 ## Fetching countries data using an API
 
 ## Things used to build this project :
