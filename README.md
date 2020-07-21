@@ -44,4 +44,4 @@ This is a web app build with **HTML** - **CSS** - **JS**, it uses a **REST API**
 
 ### Project Directory
 
-<img src="assets/directory.png" width="450px">
+<img src="assets/directory.PNG" width="450px">
