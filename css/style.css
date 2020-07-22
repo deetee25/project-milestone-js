@@ -49,13 +49,10 @@ h1 {
   font-weight: normal;
 }
 
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3) {
-    body { font-size: 12px; }
-  #main-container { width: 340px; }  
-  #flag-container { height: 170px; }  
+@media (max-width: 768px) {
+  body { font-size: 12px; }
+  #main-container { width: 342px; }  
+  #flag-container { height: 172px; }  
   #info-container select { font-size: 12px; font-weight: 600; }
 }
 
