@@ -60,6 +60,6 @@ h1 {
   and (min-device-width: 320px) 
   and (max-device-width: 360px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
-      #flag-container { height: 172px; } 
+      #flag-container { height: 160px; } 
       img 
 }
