@@ -56,10 +56,18 @@ h1 {
   #info-container select { font-size: 12px; font-weight: 600; }
 } */
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 360px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-      #flag-container { height: 172px; } 
-      img 
+@media (max-width: 800px) {
+  body {
+    font-size: 15px;
+  }
+  #main-container {
+    width: 320px;
+  }
+  #flag-container {
+    height: 360px;
+  }
+  #info-container select {
+    font-size: 12px;
+    font-weight: 600;
+  }
 }
