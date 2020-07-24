@@ -22,6 +22,7 @@ h1 {
     height: 252px;
     background-color: #eee;
     border: 1px solid rgb(27, 27, 27);
+
 }
 
 #flag-container img {
@@ -39,6 +40,7 @@ h1 {
   font-size: 15px;
   font-weight: 900;
   text-align-last: center;
+  z-index: 0;
 }
 
 #info-container p {
